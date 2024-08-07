@@ -2,13 +2,17 @@
 
 /*tablet*/
 @media screen and (min-width:768px) and (max-width:992px) {
+    main{
+        height: 90vh;
+    }
+
     body{
         background-image: linear-gradient(to top, #01401C 50%, #025920, #02731E, #4BA632);
     }
 
     section#login{
         width: 80vw;
-        height: 400px;
+
     }
 
     section#login > div#img{
@@ -32,13 +36,17 @@
 
 /*Computador*/
 @media screen  and (min-width:992px){
+    main{
+    height: 90vh;
+}
+
     body{
         background-image: linear-gradient(to top, #01401C 50%, #025920, #02731E, #4BA632);
     }
 
     section#login{
         width: 950px;
-        height: 400px;
+
     }
 
     section#login > div#img{
